@@ -10,3 +10,5 @@ runs/*
 !runs/.gitkeep
 .DS_Store
 out_test.txt
+
+runs/
