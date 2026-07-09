@@ -6,7 +6,7 @@
 
 **Audit trail for causal claims — assumptions, instruments, sensitivity — with pass/fail certificates.**
 
-Package: `causalaudit` · Product **P16** in the causal research suite.
+Package: `causalaudit` - Product **P16** in the causal research suite.
 
 ## Install
 
