@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+*.egg-info/
+out/
+runs/*
+!runs/.gitkeep
+.DS_Store
+out_test.txt

@@ -1,0 +1,23 @@
+{
+  "title": "Effect of training on employment (example)",
+  "estimand": "ATE of job training on employment probability",
+  "treatment": "training",
+  "outcome": "employed",
+  "identification_strategy": "IV with lottery assignment",
+  "instruments": ["lottery_assignment"],
+  "assumptions": [
+    "Exclusion: lottery affects employment only through training",
+    "Relevance: lottery predicts training take-up",
+    "SUTVA / no interference",
+    "Independence of lottery from potential outcomes"
+  ],
+  "sensitivity": {
+    "method": "partial_r2",
+    "result": "robust to confounders explaining < 10% residual variance",
+    "bounds": [0.02, 0.11]
+  },
+  "limitations": [
+    "Local LATE for compliers only",
+    "Single geography sample"
+  ]
+}
